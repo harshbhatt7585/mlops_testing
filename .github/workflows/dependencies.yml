@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: action/checkout@v2
     - name: Set up python 3.5.10
-    - uses: action/setup-python@v1
+      uses: action/setup-python@v1
       with:
         python-version: 3.5.10
     - name: Install dependencies
