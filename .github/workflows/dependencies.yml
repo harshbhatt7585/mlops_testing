@@ -2,7 +2,7 @@ name: Azure python 3.5
 on: [push]
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: action/checkout@v2
     - name: Set up python 3.5.10
